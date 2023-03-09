@@ -20,6 +20,6 @@ The "rm /tmp/my_first_directory/betty" command will delete betty file from the s
 The "rmdir /tmp/my_first_directory" command will delete the directory my_first_directory.
 
 The "cd -" command will go back to the previous working directory.
-The "ls -la" prints all files in long format including hidden files, current working directory and parent directory.
+The "ls -la /boot" prints all files in long format including hidden files, current working directory and parent directory.
 
 The "file" command displays info about the specified file.
