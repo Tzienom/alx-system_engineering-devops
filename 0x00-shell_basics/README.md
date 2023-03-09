@@ -13,4 +13,5 @@ ls: list contents of directory.
 -a: display hidden files.
 
 
-The "mkdir ../../../../tmp/my_first_directory" command creates the specified directory in tmp.
+The "mkdir /tmp/my_first_directory" command creates the specified directory in tmp.
+The "mv betty /tmp/my_first_directory" command moves the file betty to the specified directory.
