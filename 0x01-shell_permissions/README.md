@@ -1,5 +1,5 @@
 The "su betty" command will change the current user to betty.
-The "echo $USER" command will print the name of the current user.
+The "whoami" command will print the name of the current user.
 
 "groups $USER" will print the groups the current user is part of.
 "sudo chown betty hello" will make betty the owner of the "hello" file.
