@@ -1,0 +1,3 @@
+[submodule "0x01-shell_permissions"]
+	path = 0x01-shell_permissions
+	url = https://github.com/Tzienom/alx-system_engineering-devops
