@@ -14,4 +14,12 @@ ls: list contents of directory.
 
 
 The "mkdir /tmp/my_first_directory" command creates the specified directory in tmp.
-The "mv betty /tmp/my_first_directory" command moves the file betty to the specified directory.
+The "mv /tmp/betty /tmp/my_first_directory" command moves the file betty to the specified directory.
+
+The "rm /tmp/my_first_directory/betty" command will delete betty file from the specified directory.
+The "rmdir /tmp/my_first_directory" command will delete the directory my_first_directory.
+
+The "cd -" command will go back to the previous working directory.
+The "ls -la" prints all files in long format including hidden files, current working directory and parent directory.
+
+The "file" command displays info about the specified file.
