@@ -23,3 +23,6 @@ The "cd -" command will go back to the previous working directory.
 The "ls -la /boot" prints all files in long format including hidden files, current working directory and parent directory.
 
 The "file" command displays info about the specified file.
+The "ln -s" creates a symbolic link and points to the intended file.
+
+The "cp -u" copies files that are newer in the current directory.
