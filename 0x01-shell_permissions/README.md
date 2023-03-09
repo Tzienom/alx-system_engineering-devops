@@ -8,8 +8,8 @@ The "touch hello" command will create an empty hello file.
 "chmod u+x hello" will give execute permission to the owner of the file.
 
 
-"chmod 114 hello" will give execute permission to owner and group, and read permission to others.
-"chmod 111 hello" will execute permission to owner, group, and others.
+"chmod +114 hello" will give execute permission to owner and group, and read permission to others.
+"chmod +111 hello" will execute permission to owner, group, and others.
 
 "chmod 007 hello" will give no permission to owner and group, but all permissions to others.
 "chmod 753 hello" sets the mode to -rwxr-x-wx.
