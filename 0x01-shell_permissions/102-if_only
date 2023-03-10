@@ -1,2 +1,2 @@
 #!/bin/bash
-if [ -u hello == guillaume ]; then sudo chown betty hello; fi
+if [ -u hello == guillaume ] then sudo chown betty hello fi
