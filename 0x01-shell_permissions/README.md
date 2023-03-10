@@ -19,3 +19,5 @@ The "touch hello" command will create an empty hello file.
 
 "mkdir -m 751 ./my_dir" creates a directory "my_dir" with the 751 permissions.
 "chgrp school hello" will make "school" the new group owner of the hello file.
+
+"sudo chown vicent:staff ./*" changes the file owner to vincent and group owners to staff.
