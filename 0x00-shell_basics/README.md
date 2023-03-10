@@ -26,3 +26,9 @@ The "file" command displays info about the specified file.
 The "ln -s" creates a symbolic link and points to the intended file.
 
 The "cp -u" copies files that are newer in the current directory.
+"mv [:upper:] /tmp/u" will move any file with an uppercase letter.
+
+"rm *~ ." will delete all files ending with ~ (tilde).
+"mkdir -p ./welcome/'welcome to'/'welcome to school'" creates the subdirectories within the current working directory.
+
+"echo $(ls -p | sed ':a;N;$!ba;s/\n/, /g')" will list all contents in the current directory as comma-separated items, and the directories will be printed with a slash.
