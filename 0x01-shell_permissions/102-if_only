@@ -1,4 +1,2 @@
 #!/bin/bash
-if [find ./hello -user guillaume] then
-	sudo chown betty ./hello
-fi
+if [-o ./hello guillaume] then sudo chown betty ./hello
