@@ -9,3 +9,5 @@
 "head +3 iacta | tail -3" will display the third line.
 
 "echo "Best School" > "\*\\\\'\"Best School\"\\'\\\\*$\?\*\*\*\*\*:)"" will create a file named \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) with the "Best School" content in it.
+
+"ls -la > ls_cwd_content" writes the result of ls -la into ls_cwd_content. If the file already exists, it overwrites it, if not, it creates it.
