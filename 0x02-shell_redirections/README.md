@@ -11,3 +11,6 @@
 "echo "Best School" > "\*\\\\'\"Best School\"\\'\\\\*$\?\*\*\*\*\*:)"" will create a file named \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) with the "Best School" content in it.
 
 "ls -la > ls_cwd_content" writes the result of ls -la into ls_cwd_content. If the file already exists, it overwrites it, if not, it creates it.
+
+"tail -1 iacta | echo $(tail -1 iacta) >> iacta" duplicates the last line and appends it to the file.
+"find . -type f name ".js" -exec rm {} +" searches for all .js files in the current directory, subdirector(y)(ies), and deletes them.
