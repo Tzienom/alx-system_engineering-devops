@@ -7,3 +7,5 @@
 
 "head -10 /etc/passwd" will display the first ten lines.
 "head +3 iacta | tail -3" will display the third line.
+
+"echo "Best School" > "\*\\\\'\"Best School\"\\'\\\\*$\?\*\*\*\*\*:)"" will create a file named \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) with the "Best School" content in it.
