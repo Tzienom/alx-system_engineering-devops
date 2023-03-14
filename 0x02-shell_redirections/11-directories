@@ -1,2 +1,2 @@
 #!/bin/bash
-find !(.,..) -path './.*' -type d,f -o -print | wc -l
+find . mindepth 1 -path './.*' -type d,f -print | wc -l
