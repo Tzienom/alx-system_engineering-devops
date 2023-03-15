@@ -25,3 +25,6 @@
 "grep -v "bin" /etc/passwd" prints lines that do not contain the specified pattern.
 
 "grep "^[a-z, A-Z]" /etc/ssh/sshd_config" will display all lines of the file starting with a letter.
+"tr "Ac" "Ze"" translates all occurrences of A and c to Z and e respectively.
+
+"tr -d "Cc"" deletes all occurrences of C and c.
