@@ -1,12 +1,12 @@
 "echo Hello, World" will print Hello, World to the standard output, with a new line.
-
+"echo "\"(Ôo)'"" displays "(Ôo)'.
 "less /etc/passwd" will display the contents of /etc/passwd.
 
 "cat /etc/passwd /etc/hosts | less" will display the contents of specified files.
 "tail -10 /etc/passwd" will display the last ten lines.
 
 "head -10 /etc/passwd" will display the first ten lines.
-"head +3 iacta | tail -3" will display the third line.
+"head -3 iacta | tail -1" will display the third line.
 
 "echo "Best School" > "\*\\\\'\"Best School\"\\'\\\\*$\?\*\*\*\*\*:)"" will create a file named \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) with the "Best School" content in it.
 
@@ -28,3 +28,6 @@
 "tr "Ac" "Ze"" translates all occurrences of A and c to Z and e respectively.
 
 "tr -d "Cc"" deletes all occurrences of C and c.
+"rev" reserves the input it receives.
+
+"cut -d: -f1,6 /etc/passwd" displays the user names' and their home directories.
