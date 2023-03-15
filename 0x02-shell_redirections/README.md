@@ -23,3 +23,5 @@
 
 "grep -A 3 "root" /etc/passwd" prints line(s) with the specified pattern, and also prints the next thre lines after them.
 "grep -v "bin" /etc/passwd" prints lines that do not contain the specified pattern.
+
+"grep "^[a-z, A-Z]" /etc/ssh/sshd_config" will display all lines of the file starting with a letter.
