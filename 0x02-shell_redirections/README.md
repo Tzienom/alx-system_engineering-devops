@@ -14,3 +14,8 @@
 
 "tail -1 iacta | echo $(tail -1 iacta) >> iacta" duplicates the last line and appends it to the file.
 "find . -type f name ".js" -exec rm {} +" searches for all .js files in the current directory, subdirector(y)(ies), and deletes them.
+
+"ls -t | head -10" prints the 10 newest files starting from the newest to oldest.
+"sort | uniq -u" sorts the given list and prints non-duplicated lines.
+
+"grep -w "root" /etc/passwd" searches for "root" word occurrence(s) and prints it.
