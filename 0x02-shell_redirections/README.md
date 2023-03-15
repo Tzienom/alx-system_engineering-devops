@@ -19,3 +19,4 @@
 "sort | uniq -u" sorts the given list and prints non-duplicated lines.
 
 "grep -w "root" /etc/passwd" searches for "root" word occurrence(s) and prints it.
+"grep -w "bin" /etc/passwd | wc -l" prints the number of lines containing "bin".
