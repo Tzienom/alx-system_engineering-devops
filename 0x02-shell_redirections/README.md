@@ -20,3 +20,5 @@
 
 "grep -w "root" /etc/passwd" searches for "root" word occurrence(s) and prints it.
 "grep "bin" /etc/passwd | wc -l" prints the number of lines containing "bin".
+
+"grep -A 3 "root" /etc/passwd" prints line(s) with the specified pattern, and also prints the next thre lines after them.
